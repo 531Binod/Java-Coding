@@ -31,9 +31,9 @@ public class LCMCalculator {
             num2 = num1 % num2;
             num1 = temp;
         }
-        System.out.println("HCF IS: ",+ num1);
+        //System.out.println("HCF IS: ",+ num1); error bcz return int
         return num1;
-        //System.out.println("HCF IS: ",+ num1);
+        //System.out.println("HCF IS: ",+ num1); error
     }
 }
 

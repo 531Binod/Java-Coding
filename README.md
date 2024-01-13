@@ -1,6 +1,6 @@
 
 ## Level-01 Basic:
-#  Introduction , Control statement and Loop
+#  Introduction , Control statements Loops and functions.
 1. Write a program to print whether a number is even or odd, also take input from the user.
 2. Take name as input and print a greeting message for that particular name.
 3. Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
@@ -63,7 +63,6 @@
 60. Binod is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
 61. Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
 
-# Function
 62. Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 
 63. Define a program to find out whether a given number is even or odd.

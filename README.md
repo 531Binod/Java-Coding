@@ -97,3 +97,9 @@ Marks        Grade
 78. Capitalize the word
 79. check case sensitivity
 80. Swap two number.
+
+# Sorting
+1. Bubble sort
+2. Selection sort
+3. Insertion sort
+4. Cyclic sort

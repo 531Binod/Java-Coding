@@ -103,3 +103,5 @@ Marks        Grade
 2. Selection sort
 3. Insertion sort
 4. Cyclic sort
+5. Merge Sort
+6. Quick Sort

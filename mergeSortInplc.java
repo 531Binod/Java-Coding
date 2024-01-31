@@ -12,8 +12,8 @@ public class mergeSortInplc {
         if(end-start==1){
             return ;
         }
-        int mid = (end - start) /2;
-        mergeSortIn(arr, 0, mid);
+        int mid = ( start+end) /2;
+        mergeSortIn(arr, start, mid);
         mergeSortIn(arr, mid, end);
         
         mergeInplace(arr, start, mid, end);

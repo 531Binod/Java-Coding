@@ -3,8 +3,9 @@ import java.util.Arrays;
 public class selectionSort {
     public static void main(String[] args) {
         int[] arr = {2, 4 , 5 ,7 ,8,0,-6};
-        selectionSort(arr);
         System.out.println(Arrays.toString(arr));
+        selectionSort(arr);
+        System.out.println("After sorting: " + Arrays.toString(arr));
     }
     public static void selectionSort(int[] arr) {
         for(int i=0;i<arr.length-1; i++){

@@ -14,7 +14,7 @@ public class mergeSortInplc {
         }
         int mid = ( start+end) /2;
         mergeSortIn(arr, start, mid);
-        mergeSortIn(arr, mid, end);
+        mergeSortIn(arr, mid, end); // not mid+1 , see line 8
         
         mergeInplace(arr, start, mid, end);
     }

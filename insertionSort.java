@@ -3,8 +3,9 @@ import java.util.Arrays;
 public class insertionSort {
     public static void main(String[] args) {
         int[] arr = {2,5,7,78,3,2,4,4 ,0 ,-5};
+        System.out.println("Array: "+ Arrays.toString(arr));
         insertionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println("After insertion sort: "+ Arrays.toString(arr));
     }
     public static void insertionSort(int[] arr) {
         for(int i=0; i<arr.length-1;i++){

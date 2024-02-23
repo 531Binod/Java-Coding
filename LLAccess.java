@@ -13,18 +13,27 @@ public class LLAccess {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         System.out.println(x +" Found At Index "+ list.search(x));
+        System.out.println("Enter element to Insert at tail: ");
+        int y = sc.nextInt();
         
-        
-        list.InsertAtTail(100);
+        list.InsertAtTail(y);
         list.Display();
-        list.InsertAtIndex(1000, 2);
+        System.out.println("Enter value to be insert: ");
+        int p = sc.nextInt();
+        System.out.println("Enter index");
+        int q = sc.nextInt();
+        list.InsertAtIndex(p,q);
         list.Display();
-        /*/
+        System.out.println("After deletion at head: ");
         list.DeleteAtHead();
         list.Display();
-        */
         
+        System.out.println("After Deletion at tail: ");
         list.DeleteAtTail();
+        list.Display();
+        System.out.println("Enter index to be deleted: ");
+        int z= sc.nextInt();
+        list.DeleteAtIndex(z);
         list.Display();
         /* 
         list.DeleteAtTail();

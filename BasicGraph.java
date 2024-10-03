@@ -13,13 +13,15 @@ public class BasicGraph {
     }
     // Create a graph
     /* 
-    public static void CreateGraph(ArrayList<Edge> graph[]){//must mention type array i.e ArrayList<Edge>
+    public static void CreateGraph(ArrayList<Edge> graph[]){
+        //must mention type array i.e ArrayList<Edge>
         //Initially graph contain null value (Not empty). So we can't store in it.
+        
         for(int i=0; i<graph.length ;i++){
             graph[i] = new ArrayList<Edge>();
         }
         // Now graph contained empty arraylist. So, We can add edge.
-        graph[0].add(new Edge(0, 2));
+        graph[0].add(new Edge(0, 2));+
 
         graph[1].add(new Edge(1, 2));
         graph[1].add(new Edge(1, 3));

@@ -1,2 +1,2 @@
 
-        arr[first] =arr[last];
+                    swap(arr[j],arr[j+1]);
